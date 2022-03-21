@@ -17,5 +17,5 @@ l = *(str + len);
 _putchar(l);
 }
 }
-_putchar(n);
+_putchar('\n');
 }
