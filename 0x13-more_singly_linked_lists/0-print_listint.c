@@ -6,16 +6,15 @@
  */
 size_t print_lisstint_t list.
  * @h: list to print
- *
  * Return: ntint(const listint_t *h)
 {
-	size_t count = 0;
+size_t count = 0;
 
-	while (h != NULL)
-	{
-		printf("%d\n", h->n);
-		h = h->next;
-		count++;
-	}
-	return (count);
+while (h != NULL)
+{
+printf("%d\n", h->n);
+h = h->next;
+count++;
+}
+return (count);
 }
